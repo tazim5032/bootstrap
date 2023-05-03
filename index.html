@@ -1,12 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        h1 {
+            margin-top: 100px;
+        }
+    </style>
 </head>
+
 <body>
-    
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-success">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <h1>Hello Bootstrap</h1>
+    <h2>Here is some Button</h1>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+
+        <h1>Paragraph</h1>
+        <p class="text-success ">Bangladesh, to the east of India on the Bay of Bengal, is a South Asian country marked
+            by lush greenery and many waterways. Its Padma (Ganges), Meghna and Jamuna rivers create fertile plains, and
+            travel by boat is common. On the southern coast, the Sundarbans, an enormous mangrove forest shared with
+            Eastern India, is home to the royal Bengal tiger.</p>
+        <p class="text-danger">I am the danger.</p>
+
+        <div class="bg-success">
+            <h1>Learning Bootstrap</h1>
+            <p class="text-white">I am learning bootstrap.I am in the begining stage.</p>
+        </div>
+
+        <h1>Images</h1>
+        <img class="img-fluid w-25 rounded-circle img-thumbnail" src="images/kaptai.PNG" alt="tazim">
+        <img class="img-fluid w-25 rounded-circle" src="images/ruet.PNG" alt="tazim">
+        <img class="img-fluid w-25 img-thumbnail" src="images/kaptai.PNG" alt="tazim">
+        <button type="button" class="btn btn-info">See more</button>
+        <br><br>
+
+        <h1>Card</h1>
+
+        <div class="card bg-success" style="width: 18rem;">
+            <img src="images/kaptai (1).PNG" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Tazim</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <br>
+
+
+        <div class="card-group">
+            <div class="card bg-secondary">
+                <img src="images/Capture.PNG" class="card-img-top img-fluid rounded-circle w-50 bg-primary" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Tazim</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card bg-secondary">
+                <img src="images/ruet.PNG" class="card-img-top img-fluid w-50 rounded-circle bg-primary" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Tazim 2.0</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card bg-secondary">
+                <img src="images/profile.png" class="card-img-top img-fluid w-50 " alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Tazim 3.0</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+
+        <h1>Navigation</h1>
+
+        <nav class="nav">
+            <a class="nav-link" href="">Home</a>
+            <a class="nav-link" href="">Products</a>
+            <a class="nav-link" href="">Shoping Cart</a>
+            <a class="nav-link" href="">Shipping</a>
+        </nav>
+
+        <nav class="nav">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link disabled">Disabled</a>
+        </nav>
+
+
+        <div class="container">
+            <h1>Grid</h1>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <p>A paragraph is a self-contained unit of discourse in writing dealing with a particular point or
+                        idea. Though
+                        not required by the orthographic conventions of any language with a writing system, paragraphs
+                        are a
+                        conventional means of organizing extended segments of proseA paragraph is a self-contained unit
+                        of discourse
+                        in writing dealing with a particular point or idea. Though not required by the orthographic
+                        conventions of
+                        any language with a writing system, paragraphs are a conventional means of organizing extended
+                        segments of
+                        proseA paragraph is a self-contained unit of discourse in writing dealing with a particular
+                        point or idea.
+                        Though not required by the orthographic conventions of any language with a writing system,
+                        paragraphs are a
+                        conventional means of organizing extended segments of proseA paragraph is a self-contained unit
+                        of discourse
+                        in writing dealing with a particular point or idea. Though not required by the orthographic
+                        conventions of
+                        any language with a writing system, paragraphs are a conventional means of organizing extended
+                        segments of
+                        prose</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <p>A paragraph is a self-contained unit of discourse in writing dealing with a particular point or
+                        idea. Though
+                        not required by the orthographic conventions of any language with a writing system, paragraphs
+                        are a
+                        conventional means of organizing extended segments of proseA paragraph is a self-contained unit
+                        of discourse
+                        in writing dealing with a particular point or idea. Though not required by the orthographic
+                        conventions of
+                        any language with a writing system, paragraphs are a conventional means of organizing extended
+                        segments of
+                        proseA paragraph is a self-contained unit of discourse in writing dealing with a particular
+                        point or idea.
+                        Though not required by the orthographic conventions of any language with a writing system,
+                        paragraphs are a
+                        conventional means of organizing extended segments of proseA paragraph is a self-contained unit
+                        of discourse
+                        in writing dealing with a particular point or idea. Though not required by the orthographic
+                        conventions of
+                        any language with a writing system, paragraphs are a conventional means of organizing extended
+                        segments of
+                        prose</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <p>A paragraph is a self-contained unit of discourse in writing dealing with a particular point or
+                        idea. Though
+                        not required by the orthographic conventions of any language with a writing system, paragraphs
+                        are a
+                        conventional means of organizing extended segments of proseA paragraph is a self-contained unit
+                        of discourse
+                        in writing dealing with a particular point or idea. Though not required by the orthographic
+                        conventions of
+                        any language with a writing system, paragraphs are a conventional means of organizing extended
+                        segments of
+                        proseA paragraph is a self-contained unit of discourse in writing dealing with a particular
+                        point or idea.
+                        Though not required by the orthographic conventions of any language with a writing system,
+                        paragraphs are a
+                        conventional means of organizing extended segments of proseA paragraph is a self-contained unit
+                        of discourse
+                        in writing dealing with a particular point or idea. Though not required by the orthographic
+                        conventions of
+                        any language with a writing system, paragraphs are a conventional means of organizing extended
+                        segments of
+                        prose</p>
+                </div>
+            </div>
+        </div>
+
+        <h1>carousel</h1>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-50 img-fluid" src="images/Capture.PNG" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img class="w-50 img-fluid" src="images/image 4 (3).png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img class="w-50 img-fluid" src="images/ruet.PNG" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="bg-primary visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="bg-primary visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="container">
+            <h1>Flex Layout</h1>
+            <div class="d-flex flex-row-reverse">
+                <div>Tazim</div>
+                <div>Tamzid</div>
+                <div>Lamia</div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+            integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+            integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+            crossorigin="anonymous"></script>
+
 </body>
+
 </html>
